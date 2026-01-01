@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "appconfig.h": "c",
+        "apptod.h": "c",
+        "dlms_user.h": "c"
+    }
+}

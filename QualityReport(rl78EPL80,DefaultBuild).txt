@@ -1,0 +1,364 @@
+QualityReport
+20 December 2025 15:17:01
+
+------ Start build(rl78EPL80, DefaultBuild) ------
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe rlDevice\Source\dMisc.c rlApplication\Source\main.c rlDevice\Source\dDisplay.c rlApplication\Source\AppDisplay.c rlApplication\Source\AppVariables.c rlDevice\Source\dClock.c rlApplication\Source\AppPowerOnInit.c rlDevice\Source\d8bitTimer.c rlDevice\Source\dRtc.c rlApplication\Source\AppMisc.c rlDevice\Source\di2c.c rlDevice\Source\dIOCtrl.c rlDevice\Source\dUart.c rlDevice\Source\d12bitTimer.c rlDevice\Source\dDeltaSigmaADC.c rlApplication\Source\AppOneSecondTask.c rlApplication\Source\AppBilling.c rlApplication\Source\AppMD.c rlApplication\Source\AppScheduleAction.c rlApplication\Source\AppTod.c rlApplication\Source\AppBlockDailyLS.c rlApplication\Source\AppCalibration.c rlApplication\Source\AppCommunication.c rlApplication\Source\AppIntervalkWh.c rlDlms\meter_app\r_dlms_data.c rlDlms\meter_app\r_dlms_data_hls.c rlDlms\meter_app\r_dlms_data_ic.c rlDlms\meter_app\r_dlms_data_meter.c rlDlms\meter_app\r_dlms_user_interface.c rlDlms\objects\r_dlms_obis.c rlDlms\objects\r_dlms_obis_ic.c rlDlms\physical\serial.c rlDlms\physical\Timer.c rlDlms\DLMS_User.c rlApplication\Source\AppTampers.c rlApplication\Source\AppBatteryManagement.c rlDevice\Source\dWatchDog.c rlDevice\Source\dVBat.c rlDevice\Source\dLVD.c rlApplication\Source\AppNMTask.c rlApplication\Source\AppProductionProcess.c rlApplication\Source\AppParaLimits.c rlDevice\Source\dOsd.c rlApplication\Source\AppHarmonics.c rlDevice\DCImmunity\dDCImmunity.c rlApplication\Source\AppCustomerProtocol.c rlApplication\Source\AppUpdateComments.c rlApplication\Source\AppAccessProd.c -cpu=S3 -cref=DefaultBuild -obj_path=Output "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F11TLG.DVF" -g -g_line -Onothing -Otail_call=off -I DefaultBuild -D _DLMS -character_set=none -merge_string -c -MAKEUD=Output -exec_time=C:\Users\sys_f\AppData\Local\Temp\CSPlusBuildTool_54dddb297bc247fdb92b9c0a183fb6251v3fb5sb.1gb -msg_lang=english
+rlApplication\Source\AppDisplay.c(1771):W0520550:Variable "maxzones" was set but never used
+rlDlms\meter_app\r_dlms_data.c(1302):W0520186:Pointless comparison of unsigned integer with zero
+rlDlms\meter_app\r_dlms_data.c(1820):W0520177:Variable "u16" was declared but never referenced
+rlDlms\meter_app\r_dlms_data_ic.c(1572):W0520144:A value of type "const Unsigned16 __near *" cannot be used to initialize an entity of type "void *"
+rlDlms\meter_app\r_dlms_data_ic.c(1581):W0520144:A value of type "const script_action_spec_t __near *" cannot be used to initialize an entity of type "script_action_spec_t *"
+rlDlms\meter_app\r_dlms_data_ic.c(1595):W0520144:A value of type "const Unsigned16 __near *" cannot be used to initialize an entity of type "void *"
+rlDlms\meter_app\r_dlms_data_ic.c(1603):W0520144:A value of type "const Unsigned16 __near *" cannot be used to initialize an entity of type "void *"
+rlDlms\meter_app\r_dlms_data_ic.c(1611):W0520144:A value of type "const Unsigned16 __near *" cannot be used to initialize an entity of type "void *"
+rlDlms\meter_app\r_dlms_data_ic.c(1619):W0520144:A value of type "const Unsigned16 __near *" cannot be used to initialize an entity of type "void *"
+rlDlms\meter_app\r_dlms_data_ic.c(1629):W0520144:A value of type "const script_action_spec_t __near *" cannot be used to initialize an entity of type "script_action_spec_t *"
+rlDlms\meter_app\r_dlms_data_ic.c(1635):W0520144:A value of type "const script_action_spec_t __near *" cannot be used to initialize an entity of type "script_action_spec_t *"
+rlDlms\meter_app\r_dlms_data_ic.c(1641):W0520144:A value of type "const script_action_spec_t __near *" cannot be used to initialize an entity of type "script_action_spec_t *"
+rlDlms\meter_app\r_dlms_data_ic.c(1647):W0520144:A value of type "const script_action_spec_t __near *" cannot be used to initialize an entity of type "script_action_spec_t *"
+rlDlms\meter_app\r_dlms_data_ic.c(1658):W0520144:A value of type "const script_t __near *" cannot be used to initialize an entity of type "script_t *"
+rlDlms\meter_app\r_dlms_data_ic.c(1665):W0520144:A value of type "const script_t __near *" cannot be used to initialize an entity of type "script_t *"
+rlDlms\meter_app\r_dlms_data_ic.c(2041):W0520144:A value of type "const Unsigned8 __near *" cannot be used to initialize an entity of type "void *"
+rlDlms\meter_app\r_dlms_data_ic.c(2052):W0520144:A value of type "const asslist_entry_t __near *" cannot be used to initialize an entity of type "asslist_entry_t *"
+rlDlms\meter_app\r_dlms_data_ic.c(2730):W0520188:Enumerated type mixed with another type
+rlDlms\meter_app\r_dlms_data_ic.c(3287):W0520144:A value of type "const Unsigned8 __near *" cannot be used to initialize an entity of type "Unsigned8 *"
+rlDlms\meter_app\r_dlms_data_ic.c(3305):W0520144:A value of type "const Unsigned8 __near *" cannot be used to initialize an entity of type "Unsigned8 *"
+rlDlms\objects\r_dlms_obis.c(413):W0520144:A value of type "const Unsigned16 __near *" cannot be used to initialize an entity of type "Unsigned16 *"
+rlDlms\objects\r_dlms_obis.c(888):W0520144:A value of type "const Unsigned16 __near *" cannot be used to initialize an entity of type "Unsigned16 *"
+rlDlms\objects\r_dlms_obis.c(1446):W0523082:Pointer to the object of even alignment holds the odd address
+rlDlms\objects\r_dlms_obis.c(1722):W0523082:Pointer to the object of even alignment holds the odd address
+rlDlms\objects\r_dlms_obis.c(1736):W0523082:Pointer to the object of even alignment holds the odd address
+rlDlms\objects\r_dlms_obis.c(1957):W0520111:Statement is unreachable
+rlDlms\objects\r_dlms_obis.c(1962):W0520111:Statement is unreachable
+rlDlms\objects\r_dlms_obis.c(1967):W0520111:Statement is unreachable
+rlDlms\objects\r_dlms_obis.c(1972):W0520111:Statement is unreachable
+rlDlms\objects\r_dlms_obis.c(1977):W0520111:Statement is unreachable
+rlDlms\objects\r_dlms_obis.c(1982):W0520111:Statement is unreachable
+rlDlms\objects\r_dlms_obis.c(1987):W0520111:Statement is unreachable
+rlDlms\objects\r_dlms_obis.c(1992):W0520111:Statement is unreachable
+rlDlms\objects\r_dlms_obis.c(1997):W0520111:Statement is unreachable
+rlDlms\objects\r_dlms_obis.c(2002):W0520111:Statement is unreachable
+rlDlms\objects\r_dlms_obis_ic.c(312):W0523082:Pointer to the object of even alignment holds the odd address
+rlDlms\objects\r_dlms_obis_ic.c(548):W0523082:Pointer to the object of even alignment holds the odd address
+rlDlms\objects\r_dlms_obis_ic.c(6942):W0523082:Pointer to the object of even alignment holds the odd address
+rlDlms\objects\r_dlms_obis_ic.c(6945):W0523082:Pointer to the object of even alignment holds the odd address
+rlDlms\objects\r_dlms_obis_ic.c(9121):W0520186:Pointless comparison of unsigned integer with zero
+rlDlms\objects\r_dlms_obis_ic.c(9124):W0520188:Enumerated type mixed with another type
+rlDlms\objects\r_dlms_obis_ic.c(8992):W0520177:Variable "i" was declared but never referenced
+rlDlms\objects\r_dlms_obis_ic.c(8993):W0520177:Variable "temp_out_len" was declared but never referenced
+rlDlms\objects\r_dlms_obis_ic.c(8995):W0520177:Variable "p_child_asslist_entry" was declared but never referenced
+rlApplication\Source\AppBatteryManagement.c(466):W0520186:Pointless comparison of unsigned integer with zero
+rlApplication\Source\AppBatteryManagement.c(530):W0520186:Pointless comparison of unsigned integer with zero
+rlApplication\Source\AppBatteryManagement.c(628):W0520186:Pointless comparison of unsigned integer with zero
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe rlDevice\Source\cstart.asm rlDevice\Source\hdwinit.asm rlDevice\Source\stkinit.asm rlApplication\Source\AppDefaultSet.asm rlApplication\Source\BootResetVTable.asm -cpu=S3 -obj_path=Output "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F11TLG.DVF" -g -c -MAKEUD=Output -exec_time=C:\Users\sys_f\AppData\Local\Temp\CSPlusBuildTool_a0dbc3e2d6904acf98668823c992870b0lxtr5jn.idn -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\rlink.exe -MAKEUD=DefaultBuild\rl78EPL80.lk.ud -subcommand=Output\rl78EPL80.clnk
+Renesas Optimizing Linker Completed
+------ Build ended(Error:0, Warning:47)(rl78EPL80, DefaultBuild) ------
+
+--- CommandFile 1 ---
+Output\rl78EPL80.clnk :
+-Input=Output\dMisc.obj
+-Input=Output\cstart.obj
+-Input=Output\hdwinit.obj
+-Input=Output\stkinit.obj
+-Input=Output\main.obj
+-Input=Output\dDisplay.obj
+-Input=Output\AppDisplay.obj
+-Input=Output\AppVariables.obj
+-Input=Output\dClock.obj
+-Input=Output\AppPowerOnInit.obj
+-Input=Output\d8bitTimer.obj
+-Input=Output\dRtc.obj
+-Input=Output\AppMisc.obj
+-Input=Output\di2c.obj
+-Input=Output\dIOCtrl.obj
+-Input=Output\dUart.obj
+-Input=Output\d12bitTimer.obj
+-Input=Output\dDeltaSigmaADC.obj
+-Input=Output\AppOneSecondTask.obj
+-Input=Output\AppBilling.obj
+-Input=Output\AppMD.obj
+-Input=Output\AppScheduleAction.obj
+-Input=Output\AppTod.obj
+-Input=Output\AppBlockDailyLS.obj
+-Input=Output\AppCalibration.obj
+-Input=Output\AppCommunication.obj
+-Input=Output\AppIntervalkWh.obj
+-Input=Output\r_dlms_data.obj
+-Input=Output\r_dlms_data_hls.obj
+-Input=Output\r_dlms_data_ic.obj
+-Input=Output\r_dlms_data_meter.obj
+-Input=Output\r_dlms_user_interface.obj
+-Input=Output\r_dlms_obis.obj
+-Input=Output\r_dlms_obis_ic.obj
+-Input=Output\serial.obj
+-Input=Output\Timer.obj
+-Input=Output\DLMS_User.obj
+-Input=Output\AppTampers.obj
+-Input=Output\AppBatteryManagement.obj
+-Input=Output\dWatchDog.obj
+-Input=Output\dVBat.obj
+-Input=Output\dLVD.obj
+-Input=Output\AppNMTask.obj
+-Input=Output\AppProductionProcess.obj
+-Input=Output\AppParaLimits.obj
+-Input=Output\AppDefaultSet.obj
+-Input=Output\BootResetVTable.obj
+-Input=Output\dOsd.obj
+-Input=Output\AppHarmonics.obj
+-Input=Output\dDCImmunity.obj
+-Input=Output\AppCustomerProtocol.obj
+-Input=Output\AppUpdateComments.obj
+-Input=Output\AppAccessProd.obj
+-LIBrary=rlDlms\meter_app\aes\AES_128_EBC_CCRL.lib
+-LIBrary=rlDlms\Lib\DLMSLib_RL78_V0.8.9_Common_IndiaSupport_CCRL_V106_AutoNoFar_OptimizeCode.lib
+-LIBrary=rlDevice\DCImmunity\ccrl_rl78i1c_sw_dc_detection_only.lib
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F11TLG.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\rl78EPL80.abs
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\lib\rl78em4s.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\lib\malloc_n.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\lib\rl78em4r.lib
+-OCDBG=84
+-DEBUG_MONITOR
+-USER_OPT_BYTE=FE5FE2
+-LISt=DefaultBuild\rl78EPL80.map
+-SHow=SYmbol,Reference,Xreference,Total_size,VECTOR,STRUCT,RELOCATION_ATTRIBUTE
+-STARt=.const,.text,.RLIB,.SLIB,.textf,.constf,.data,.sdata/03000,.dataR,.bss/FDF00,.sdataR,.sbss/FFE20
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-NOLOgo
+-end
+-Input=DefaultBuild\rl78EPL80.abs
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F11TLG.DVF
+-OUtput=DefaultBuild\rl78EPL80.hex
+-FOrm=Hexadecimal
+-NOMessage
+-exit
+
+
+--- SHA1 hash value of output files ---
+D:\Sushmita\TENDER\2025\MPMKVVCL_BHOPAL\MPMKVVCL_TENDER_2025_110\DefaultBuild\rl78EPL80.abs: c5cde61e853cfbdedd84d56edfbf2b67a37720c4
+D:\Sushmita\TENDER\2025\MPMKVVCL_BHOPAL\MPMKVVCL_TENDER_2025_110\DefaultBuild\rl78EPL80.hex: 98b766fdd24a2850da9e117a1c38362705d11ae9
+
+
+--- System Information ---
+*OS Version
+ Microsoft Windows 11 Pro (-, 10.0.26200, WOW64)
+*Language
+ English (United States)
+*.NET Framework Version
+ Microsoft .NET Framework 4 [.NET 4.8 or later] (533509)
+
+--- Application Information ---
+*Product Name
+ CS+ for CC
+*Package Version
+ V8.09.00  [12 Dec 2022]
+*Version
+ V9.09.00.06 [12 Dec 2022]
+*Assembly Version
+ 3.12.10.1
+*Sales Area
+ Japan
+*Product License
+ Compiler Standard V1 for RL78 (CC-RL) Node Locked License(permanent); 
+*Execution Place
+ C:\Program Files (x86)\Renesas Electronics\CS+\CC
+*Memory Usage
+ *Private Working Set
+  246 MB
+ *Number of GDI Objects
+  2190
+ *Number of USER Objects
+  1055
+ *Opened Files
+  9 editors, 9 files, 162 KB
+
+--- Build Tool Plug-in Information ---
+RH850 Build tool CC-RH Plug-in
+ *Version
+  V8.09.00.00 [07 Oct 2022]
+ *Assembly Version
+  1.1.10.12
+ *DLL File Name
+  BuildToolCCRH.dll
+RL78 Build tool CC-RL Plug-in
+ *Version
+  V8.09.00.01 [07 Oct 2022]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  BuildToolCCRL.dll
+RX Build tool CC-RX Plug-in
+ *Version
+  V8.09.00.00 [07 Oct 2022]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  BuildToolCCRX.dll
+RH850 Build tool GHS CCRH850 Plug-in
+ *Version
+  V1.07.00.00 [07 Oct 2022]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  BuildToolGHSCCRH850.dll
+
+--- Debug Tool Plug-in Information ---
+Debugger Collection Plug-in
+ *Version
+  V8.09.00.03 [24 Nov 2022]
+ *Assembly Version
+  2.12.10.1
+ *DLL File Name
+  DebugToolCollection.dll
+
+--- Other Plug-in Information ---
+Code Generator Plug-in for RH850
+ *Version
+  V1.02.02.05 [25 May 2018]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  CodeGeneratorRH850.dll
+Code Generator Plug-in
+ *Version
+  V4.08.06.01 [28 Oct 2022]
+ *Assembly Version
+  3.0.0.0
+ *DLL File Name
+  CodePart.dll
+Code Generator/PinView Plug-in
+ *Version
+  V2.10.07.02 [08 Nov 2021]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  CodePart2.dll
+Debug Console Plug-in
+ *Version
+  V8.09.00.03 [24 Nov 2022]
+ *Assembly Version
+  8.9.0.0
+ *DLL File Name
+  DebugConsole.dll
+Quick and Effective tool solution - QE
+ *Version
+  V9.09.00.01 [18 Oct 2022]
+ *Assembly Version
+  1.15.10.16
+ *DLL File Name
+  InCarTools.dll
+Pin Configurator Plug-in
+ *Version
+  V1.54.01.01 [31 Jul 2014]
+ *Assembly Version
+  1.6.10.23
+ *DLL File Name
+  PinConfig.dll
+Program Analyzer Plug-in
+ *Version
+  V4.12.00.01 [14 Apr 2021]
+ *Assembly Version
+  3.12.11.9
+ *DLL File Name
+  ProgramAnalyzer.dll
+IronPython Console Plug-in
+ *Version
+  V1.45.00.03 [22 Nov 2022]
+ *Assembly Version
+  1.6.10.23
+ *DLL File Name
+  PythonConsole.dll
+Editor plug-in DLL
+ *Version
+  V1.19.00.01 [24 Oct 2022]
+ *Assembly Version
+  1.1.0.0
+ *DLL File Name
+  SEditor.dll
+Stack Usage Tracer
+ *Version
+  V1.05.00.02 [30 Jul 2014]
+ *Assembly Version
+  1.30.11.15
+ *DLL File Name
+  Stk.dll
+Update Manager Plug-in
+ *Version
+  V2.03.00.02 [29 Oct 2018]
+ *Assembly Version
+  1.13.6.20
+ *DLL File Name
+  Update.dll
+
+Debug Tool Common Interface
+ *Version
+  V8.09.00.03 [24 Nov 2022]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  CommonDebuggerInterface.dll
+Device Information Common Interface
+ *Version
+  V9.09.00.01 [18 Oct 2022]
+ *Assembly Version
+  3.0.0.0
+ *DLL File Name
+  DeviceInformation.dll
+
+--- Main Project Information ---
+D:\Sushmita\TENDER\2025\MPMKVVCL_BHOPAL\MPMKVVCL_TENDER_2025_110\rl78EPL80.mtpj
+Microcontroller Information
+ *R5F11TLG
+  *File Name: Version
+   RL78_Productlist.xml: V8.090001
+   R5F11TLG_common.xml: V1.00.00.XX.XX
+   DR5F11TLG.DVF: V1.00
+   -: -
+   -: -
+  
+
+Build Tool Information
+ *CC-RL
+   * Version of plug-in(*.dll)
+     V8.09.00.03 [04 Nov 2022]
+   * The Version of the Compiler Package
+     V1.12.00
+  
+ * The version of SMS Assembler
+   V1.00.00.01 [29 May 2020]
+ 
+
+Debug Tool Information
+ *RL78 E2 Lite
+  Debugger Library V8.09.00.03 [24 Nov 2022]
+  
+
+Other Tool Information
+ *None
+
+ *None
+
+ *Code Generator
+ *None
+
+ *Program Analyzer
+  *Version
+   V4.12.00.01 [14 Apr 2021]
+
+ *None
+
+Other Information
+ *RL78/I1C Code Library
+  *Version
+   V1.01.07.02 [08 Nov 2021]
+  *Description
+   Code library for RL78/I1C code generation plugin.
+
+
